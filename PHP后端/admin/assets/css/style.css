@@ -1,0 +1,142 @@
+/* 自定义样式 */
+
+/* 主题颜色 */
+:root {
+    --primary-color: #3c8dbc;
+    --secondary-color: #0056b3;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --dark-color: #343a40;
+    --light-color: #f8f9fa;
+}
+
+/* 表格美化 */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.table th {
+    background-color: #f4f6f9;
+    font-weight: 600;
+}
+
+/* 表单元素美化 */
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(60, 141, 188, 0.25);
+}
+
+/* 按钮悬停效果 */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+/* 卡片美化 */
+.card {
+    box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+    transition: all 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 3px rgba(0,0,0,.125), 0 3px 6px rgba(0,0,0,.2);
+}
+
+.card-header {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    background-color: rgba(0,0,0,.03);
+}
+
+/* 自定义动画 */
+.fade-in {
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* 表格操作按钮 */
+.btn-action {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    margin-right: 5px;
+}
+
+/* 排序拖动图标 */
+.sort-handle {
+    cursor: move;
+    color: #aaa;
+}
+
+.sort-handle:hover {
+    color: #666;
+}
+
+/* API代码块 */
+.api-code {
+    background-color: #f8f9fa;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 15px;
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1.25rem;
+    }
+    
+    .table-responsive {
+        font-size: 0.9rem;
+    }
+}
+
+/* 图标文本垂直对齐 */
+.icon-text-align {
+    vertical-align: middle;
+}
+
+/* 表单分组间距 */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* 加载动画 */
+.spinner {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: var(--primary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* 徽章美化 */
+.badge-custom {
+    font-weight: 400;
+    padding: 0.35em 0.65em;
+    border-radius: 10rem;
+}
+
+/* 表格内的图标 */
+.table .fa, .table .fas {
+    width: 16px;
+    text-align: center;
+    margin-right: 5px;
+} 

@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "category_id": 1,
+        "name": "CCTV-1",
+        "icon": "fa-circle-play",
+        "url": "http://example.com/cctv1.m3u8",
+        "sort": 1
+    },
+    {
+        "id": 2,
+        "category_id": 1,
+        "name": "CCTV-2",
+        "icon": "fa-circle-play",
+        "url": "http://example.com/cctv2.m3u8",
+        "sort": 2
+    },
+    {
+        "id": 3,
+        "category_id": 1,
+        "name": "CCTV-3",
+        "icon": "fa-circle-play",
+        "url": "http://example.com/cctv3.m3u8",
+        "sort": 3
+    },
+    {
+        "id": 4,
+        "category_id": 1,
+        "name": "CCTV-4",
+        "icon": "fa-circle-play",
+        "url": "http://example.com/cctv4.m3u8",
+        "sort": 4
+    },
+    {
+        "id": 5,
+        "category_id": 1,
+        "name": "CCTV-5",
+        "icon": "fa-circle-play",
+        "url": "http://example.com/cctv5.m3u8",
+        "sort": 5
+    },
+    {
+        "id": 6,
+        "category_id": 2,
+        "name": "湖南卫视",
+        "icon": "fa-circle-play",
+        "url": "http://example.com/hunan.m3u8",
+        "sort": 1
+    },
+    {
+        "id": 7,
+        "category_id": 2,
+        "name": "江苏卫视",
+        "icon": "fa-circle-play",
+        "url": "http://example.com/jiangsu.m3u8",
+        "sort": 2
+    },
+    {
+        "id": 8,
+        "category_id": 2,
+        "name": "浙江卫视",
+        "icon": "fa-circle-play",
+        "url": "http://example.com/zhejiang.m3u8",
+        "sort": 3
+    }
+] 
